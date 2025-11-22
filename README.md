@@ -34,27 +34,21 @@ appvenv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4\. Database Setup
+### 4. Database Setup
 
-1.  **Import the Database:**
+1. **Import the Database**
+   - Open MySQL Workbench, phpMyAdmin, or any MySQL client.
+   - Create a new database named `company_db`.
+   - Import the SQL file located at: `data/company_db.sql`.
 
-      * Open your MySQL tool (Workbench/PHPMyAdmin).
-      * Create a new database named `company_db`.
-      * Import the SQL file located at: `data/company_db.sql`.
-
-2.  **Configure Credentials:**
-
-      * Create a file named `.env` in the root directory.
-      * Add your database config:
-
-    <!-- end list -->
-
-    ```env
-    DB_HOST=127.0.0.1
-    DB_USER=root
-    DB_PASSWORD=your_password
-    DB_NAME=company_db
-    ```
+2. **Configure Credentials**
+   - A `.env` file is included in the clone repository, make sure that this in the root directory.
+   ```env
+   API_SECRET_TOKEN=webTraining
+   DB_HOST=127.0.0.1
+   DB_USER=root
+   DB_PASSWORD=your_password_here
+   DB_NAME=company_db
 
 ### 5\. Run the Application
 
