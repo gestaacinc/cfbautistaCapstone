@@ -39,7 +39,7 @@ def auth_required(f):
     @wraps(f)
     def decorated(*args, **kwargs):
         token = None
-        # Check Authorization Header: "Bearer webTrainingToken"
+        # Check Authorization Header: "Bearer secure-token-123"
         auth_header = request.headers.get('Authorization')
         
         if auth_header and auth_header.startswith("Bearer "):
