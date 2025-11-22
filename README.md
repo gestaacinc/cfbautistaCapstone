@@ -23,8 +23,6 @@ cd cfbautistaCapstone
 ### 2\. Create & Activate Virtual Environment
 
 **Windows:**
-
-```bash
 python -m venv appvenv
 appvenv\Scripts\activate
 ```
@@ -75,7 +73,7 @@ Server will start at: `http://127.0.0.1:5002`
 
 -----
 
-## 📸 Application Screenshots
+## 📸 Frontend Integration Screenshots
 
 ### 1. API Landing Page
 ![Index Page](screenshots/index_page.png)
