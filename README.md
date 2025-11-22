@@ -121,15 +121,20 @@ Server will start at: `http://127.0.0.1:5002`
 
 ## 📸 Application Screenshots
 
-### 1\. API Landing Page
+### 1. API Landing Page
+![Index Page](screenshots/index_page.png)
 
-### 2\. Authentication (Login)
+### 2. Authentication (Login)
+![Authentication](screenshots/authentication_page.png)
 
-### 3\. Creating Data
+### 3. Creating Data
+![Create Page](screenshots/create_data_page.png)
 
-### 4\. Updating Data
+### 4. Updating Data
+![Update Page](screenshots/update_data_page.png)
 
-### 5\. Deleting Data
+### 5. Deleting Data
+![Delete Page](screenshots/delete_page.jpg)
 
 -----
 
@@ -138,18 +143,4 @@ Server will start at: `http://127.0.0.1:5002`
 **cfbautista**
 Capstone Project Requirement
 
-````
-
-### ⚠️ Final Checklist before you push:
-
-1.  **Create the folder:** Run `mkdir data` in your terminal.
-2.  **Move the SQL file:** Move your SQL file into that folder and make sure it is named `company_db.sql`.
-3.  **Push everything:**
-    ```bash
-    git add .
-    git commit -m "Finalized README and added database script"
-    git push
-    ```
-
-Your repository is now fully documented and professional!
 ````
