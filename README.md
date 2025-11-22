@@ -95,6 +95,4 @@ Server will start at: `http://127.0.0.1:5002`
 ## 👤 Author
 
 **cfbautista**
-Capstone Project Requirement
-
-````
+ 
