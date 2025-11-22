@@ -17,7 +17,7 @@ Before running this project, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/gestaacinc/cfbautistaCapstone.git](https://github.com/gestaacinc/cfbautistaCapstone.git)
+git clone https://github.com/gestaacinc/cfbautistaCapstone.git
 cd cfbautistaCapstone
 
 Here is the revised, straight-to-the-point `README.md`.
@@ -58,14 +58,6 @@ cd cfbautistaCapstone
 python -m venv appvenv
 appvenv\Scripts\activate
 ```
-
-**Mac/Linux:**
-
-```bash
-python3 -m venv appvenv
-source appvenv/bin/activate
-```
-
 ### 3\. Install Dependencies
 
 ```bash
