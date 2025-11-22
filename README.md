@@ -20,36 +20,6 @@ Before running this project, ensure you have the following installed:
 git clone https://github.com/gestaacinc/cfbautistaCapstone.git
 cd cfbautistaCapstone
 
-Here is the revised, straight-to-the-point `README.md`.
-
-**Important:** Since you mentioned the database file is in `/data/company_db.sql`, make sure you create a folder named `data` in your project and put your SQL script inside it before pushing.
-
-### Copy and Paste this into `README.md`
-
-````markdown
-# Employee Management System API (Capstone Project)
-
-A Flask-based REST API for managing employee records, departments, and salary statistics. This project uses JWT authentication and MySQL.
-
-## 💻 System Requirements
-
-Before running this project, ensure you have the following installed:
-* **Python 3.8+**
-* **MySQL Server** (Running locally or remotely)
-* **Git**
-* **VS Code** (or any Code Editor)
-* **Postman / Thunder Client** (For API Testing)
-
----
-
-## 🛠️ Installation & Setup
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/gestaacinc/cfbautistaCapstone.git](https://github.com/gestaacinc/cfbautistaCapstone.git)
-cd cfbautistaCapstone
-````
-
 ### 2\. Create & Activate Virtual Environment
 
 **Windows:**
